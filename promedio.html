@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Promedio</title>
+    <link rel="stylesheet" href="../Funcione/estilos/estilo4.css">
+    <script defer src="../Funcione/scripts/scrip3.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Promedio</h1>
+        <p>Introduce las calificaciones de las 3 materias para calcular el promedio final:</p>
+    </header>
+
+    <section class="formulario">
+        <div>
+            <label for="materia1">Calificación de Materia 1:</label>
+            <input type="number" id="materia1" placeholder="Ej: 85" required>
+        </div>
+        <div>
+            <label for="materia2">Calificación de Materia 2:</label>
+            <input type="number" id="materia2" placeholder="Ej: 90" required>
+        </div>
+        <div>
+            <label for="materia3">Calificación de Materia 3:</label>
+            <input type="number" id="materia3" placeholder="Ej: 95" required>
+        </div>
+        <button id="calcularBtn">Calcular Promedio</button>
+
+        <div id="resultado"></div>
+
+        <button class="regresarBtn" onclick="window.location.href='index.html'">Regresar a Inicio</button>
+    </section>
+
+    <footer>
+        <p>&copy; Alexander Ian Gonzalez Ramirez</p>
+    </footer>
+</body>
+</html>

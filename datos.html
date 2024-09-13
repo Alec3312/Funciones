@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="../Funcione/estilos/estilo2.css">
+    <script defer src="../Funcione/scripts/scrip1.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Datos Personales</h1>
+        <p>Por favor, introduce tus datos personales:</p>
+    </header>
+
+    <section class="formulario">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Escribe tu apellido" required>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" placeholder="Escribe tu edad" required>
+        </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" placeholder="Escribe tu correo" required>
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" placeholder="Escribe tu teléfono" required>
+        </div>
+        <button id="enviarBtn">Enviar</button>
+
+        <div id="resultado"></div>
+
+        <button class="regresarBtn" onclick="window.location.href='index.html'">Regresar a Inicio</button>
+    </section>
+
+    <footer>
+        <p>&copy; Alexander Ian Gonzalez Ramirez</p>
+    </footer>
+</body>
+</html>

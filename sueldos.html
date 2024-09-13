@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Sueldos</title>
+    <link rel="stylesheet" href="../Funcione/estilos/estilo3.css">
+    <script defer src="../Funcione/scripts/scrip2.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cálculo de Nómina</h1>
+        <p>Introduce el sueldo de los 5 trabajadores para calcular la nómina total:</p>
+    </header>
+
+    <section class="formulario">
+        <div>
+            <label for="trabajador1">Sueldo del Trabajador 1:</label>
+            <input type="number" id="trabajador1" placeholder="Ej: 1000" required>
+        </div>
+        <div>
+            <label for="trabajador2">Sueldo del Trabajador 2:</label>
+            <input type="number" id="trabajador2" placeholder="Ej: 1200" required>
+        </div>
+        <div>
+            <label for="trabajador3">Sueldo del Trabajador 3:</label>
+            <input type="number" id="trabajador3" placeholder="Ej: 1300" required>
+        </div>
+        <div>
+            <label for="trabajador4">Sueldo del Trabajador 4:</label>
+            <input type="number" id="trabajador4" placeholder="Ej: 1100" required>
+        </div>
+        <div>
+            <label for="trabajador5">Sueldo del Trabajador 5:</label>
+            <input type="number" id="trabajador5" placeholder="Ej: 1500" required>
+        </div>
+        <button id="calcularBtn">Calcular Nómina</button>
+
+        <div id="resultado"></div>
+
+        <button class="regresarBtn" onclick="window.location.href='index.html'">Regresar a Inicio</button>
+    </section>
+
+    <footer>
+        <p>&copy; Alexander Ian Gonzalez Ramirez</p>
+    </footer>
+</body>
+</html>

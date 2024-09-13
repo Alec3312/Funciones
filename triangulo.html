@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del Área de un Triángulo</title>
+    <link rel="stylesheet" href="../Funcione/estilos/estilo1.css">
+    <script defer src="../Funcione/scripts/scrip.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora del Área de un Triángulo</h1>
+        <p>Introduce los valores de la base y la altura para calcular el área.</p>
+    </header>
+
+    <section class="formulario">
+        <div>
+            <label for="base">Base del triángulo (cm):</label>
+            <input type="number" id="base" placeholder="Ej: 10" required>
+        </div>
+        <div>
+            <label for="altura">Altura del triángulo (cm):</label>
+            <input type="number" id="altura" placeholder="Ej: 5" required>
+        </div>
+        <button id="calcularBtn">Calcular Área</button>
+
+        <div id="resultado"></div>
+
+        <button class="regresarBtn" onclick="window.location.href='index.html'">Regresar a Inicio</button>
+    </section>
+
+    <footer>
+        <p>&copy; Alexander Ian Gonzalez Ramirez</p>
+    </footer>
+</body>
+</html>
